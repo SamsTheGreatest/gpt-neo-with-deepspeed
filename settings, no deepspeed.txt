@@ -1,0 +1,448 @@
+cuda  11.1 
+device  Tesla T4
+Timeout (0:00:20)!
+Thread 0x00007fd9527fc700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/parentpoller.py", line 39 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd952ffd700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 296 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 829 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 58 in needs_sqlite
+  File "<decorator-gen-17>", line 2 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd96094f700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/heartbeat.py", line 100 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd961150700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/selectors.py", line 468 in select
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1750 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/iostream.py", line 78 in _thread_main
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 870 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9659d43c0 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/torch/nn/modules/module.py", line 637 in <lambda>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/torch/nn/modules/module.py", line 552 in _apply
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/torch/nn/modules/module.py", line 530 in _apply
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/torch/nn/modules/module.py", line 530 in _apply
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/torch/nn/modules/module.py", line 637 in cuda
+  File "<ipython-input-3-129448db8d01>", line 5 in <module>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3417 in run_code
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3337 in run_ast_nodes
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3146 in run_cell_async
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 68 in _pseudo_sync_runner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2922 in _run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2877 in run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 536 in run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 306 in do_execute
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 545 in execute_request
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 268 in dispatch_shell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 365 in process_one
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 748 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 787 in inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/ioloop.py", line 743 in _run_callback
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/ioloop.py", line 690 in <lambda>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/events.py", line 88 in _run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1786 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 612 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/traitlets/config/application.py", line 845 in launch_instance
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel_launcher.py", line 16 in <module>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 85 in _run_code
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 193 in _run_module_as_main
+30
+27 3
+
+
+Now train args 
+
+
+Timeout (0:00:20)!
+Thread 0x00007fd7d1fff700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 300 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tqdm/_monitor.py", line 60 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9527fc700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/parentpoller.py", line 39 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd952ffd700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 296 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 829 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 58 in needs_sqlite
+  File "<decorator-gen-17>", line 2 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd96094f700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/heartbeat.py", line 100 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd961150700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/selectors.py", line 468 in select
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1750 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/iostream.py", line 78 in _thread_main
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 870 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9659d43c0 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/selectors.py", line 468 in select
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1750 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 612 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/traitlets/config/application.py", line 845 in launch_instance
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel_launcher.py", line 16 in <module>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 85 in _run_code
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 193 in _run_module_as_main
+Timeout (0:00:20)!
+Thread 0x00007fd7d1fff700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 300 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tqdm/_monitor.py", line 60 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9527fc700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/parentpoller.py", line 39 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd952ffd700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 296 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 829 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 58 in needs_sqlite
+  File "<decorator-gen-17>", line 2 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd96094f700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/heartbeat.py", line 100 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd961150700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/selectors.py", line 468 in select
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1750 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/iostream.py", line 78 in _thread_main
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 870 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9659d43c0 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/selectors.py", line 468 in select
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1750 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 612 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/traitlets/config/application.py", line 845 in launch_instance
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel_launcher.py", line 16 in <module>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 85 in _run_code
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 193 in _run_module_as_main
+
+
+Now trainer 
+
+
+Timeout (0:00:20)!
+Thread 0x00007fd7d1fff700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 300 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tqdm/_monitor.py", line 60 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9527fc700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/parentpoller.py", line 39 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd952ffd700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 296 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 829 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 58 in needs_sqlite
+  File "<decorator-gen-17>", line 2 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd96094f700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/heartbeat.py", line 100 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd961150700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/selectors.py", line 468 in select
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1750 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/iostream.py", line 78 in _thread_main
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 870 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9659d43c0 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/torch/nn/parallel/distributed.py", line 496 in __init__
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/transformers/trainer.py", line 983 in _wrap_model
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/transformers/trainer.py", line 1132 in train
+  File "<ipython-input-11-78a8bbc8e526>", line 11 in <module>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3417 in run_code
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3337 in run_ast_nodes
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3146 in run_cell_async
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 68 in _pseudo_sync_runner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2922 in _run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2877 in run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 536 in run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 306 in do_execute
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 545 in execute_request
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 268 in dispatch_shell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 365 in process_one
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 748 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 787 in inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/ioloop.py", line 743 in _run_callback
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/ioloop.py", line 690 in <lambda>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/events.py", line 88 in _run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1786 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 612 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/traitlets/config/application.py", line 845 in launch_instance
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel_launcher.py", line 16 in <module>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 85 in _run_code
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 193 in _run_module_as_main
+Timeout (0:00:20)!
+Thread 0x00007fd7d1fff700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 300 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tqdm/_monitor.py", line 60 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9527fc700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/parentpoller.py", line 39 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd952ffd700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 296 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 829 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 58 in needs_sqlite
+  File "<decorator-gen-17>", line 2 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd96094f700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/heartbeat.py", line 100 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd961150700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/selectors.py", line 468 in select
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1750 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/iostream.py", line 78 in _thread_main
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 870 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9659d43c0 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/torch/nn/parallel/distributed.py", line 496 in __init__
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/transformers/trainer.py", line 983 in _wrap_model
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/transformers/trainer.py", line 1132 in train
+  File "<ipython-input-11-78a8bbc8e526>", line 11 in <module>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3417 in run_code
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3337 in run_ast_nodes
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3146 in run_cell_async
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 68 in _pseudo_sync_runner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2922 in _run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2877 in run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 536 in run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 306 in do_execute
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 545 in execute_request
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 268 in dispatch_shell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 365 in process_one
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 748 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 787 in inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/ioloop.py", line 743 in _run_callback
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/ioloop.py", line 690 in <lambda>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/events.py", line 88 in _run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1786 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 612 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/traitlets/config/application.py", line 845 in launch_instance
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel_launcher.py", line 16 in <module>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 85 in _run_code
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 193 in _run_module_as_main
+Timeout (0:00:20)!
+Thread 0x00007fd7d1fff700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 300 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tqdm/_monitor.py", line 60 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9527fc700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/parentpoller.py", line 39 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd952ffd700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 296 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 829 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 58 in needs_sqlite
+  File "<decorator-gen-17>", line 2 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd96094f700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/heartbeat.py", line 100 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd961150700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/selectors.py", line 468 in select
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1750 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/iostream.py", line 78 in _thread_main
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 870 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9659d43c0 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/torch/nn/parallel/distributed.py", line 496 in __init__
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/transformers/trainer.py", line 983 in _wrap_model
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/transformers/trainer.py", line 1132 in train
+  File "<ipython-input-11-78a8bbc8e526>", line 11 in <module>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3417 in run_code
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3337 in run_ast_nodes
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3146 in run_cell_async
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 68 in _pseudo_sync_runner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2922 in _run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2877 in run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 536 in run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 306 in do_execute
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 545 in execute_request
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 268 in dispatch_shell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 365 in process_one
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 748 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 787 in inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/ioloop.py", line 743 in _run_callback
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/ioloop.py", line 690 in <lambda>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/events.py", line 88 in _run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1786 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 612 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/traitlets/config/application.py", line 845 in launch_instance
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel_launcher.py", line 16 in <module>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 85 in _run_code
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 193 in _run_module_as_main
+Timeout (0:00:20)!
+Thread 0x00007fd7d1fff700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 300 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tqdm/_monitor.py", line 60 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9527fc700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/parentpoller.py", line 39 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd952ffd700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 296 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 552 in wait
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 829 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/history.py", line 58 in needs_sqlite
+  File "<decorator-gen-17>", line 2 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd96094f700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/heartbeat.py", line 100 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd961150700 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/selectors.py", line 468 in select
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1750 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/iostream.py", line 78 in _thread_main
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 870 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd9659d43c0 (most recent call first):
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/torch/nn/parallel/distributed.py", line 496 in __init__
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/transformers/trainer.py", line 983 in _wrap_model
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/transformers/trainer.py", line 1132 in train
+  File "<ipython-input-11-78a8bbc8e526>", line 11 in <module>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3417 in run_code
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3337 in run_ast_nodes
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3146 in run_cell_async
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 68 in _pseudo_sync_runner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2922 in _run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2877 in run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 536 in run_cell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 306 in do_execute
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 545 in execute_request
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 268 in dispatch_shell
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 209 in wrapper
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 365 in process_one
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 748 in run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/gen.py", line 787 in inner
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/ioloop.py", line 743 in _run_callback
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/ioloop.py", line 690 in <lambda>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/events.py", line 88 in _run
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 1786 in _run_once
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/asyncio/base_events.py", line 541 in run_forever
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 612 in start
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/traitlets/config/application.py", line 845 in launch_instance
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/site-packages/ipykernel_launcher.py", line 16 in <module>
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 85 in _run_code
+  File "/home/jovyan/anaconda3/envs/esemala/lib/python3.7/runpy.py", line 193 in _run_module_as_main
